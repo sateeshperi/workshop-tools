@@ -1,0 +1,7 @@
+name: ipywidgets
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - pip:
+    - ipywidgets
