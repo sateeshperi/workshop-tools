@@ -1,8 +1,9 @@
-name: ipywidgets
+name: workshop-tools
 channels:
   - conda-forge
 dependencies:
-  - jupyterlab=3.0.7 
+  - jupyterlab_widgets
+  - ipywidgets
+  - voila
   - pip
   - pip:
-    - ipywidgets
